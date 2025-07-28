@@ -1,0 +1,132 @@
+{
+  "upcomingMatches": [
+    {
+      "id": 1,
+      "homeTeam": "Manchester City",
+      "awayTeam": "Arsenal",
+      "league": "Premier League",
+      "date": "2025-07-21T15:00:00Z",
+      "aiPrediction": {
+        "outcome": "Home Win",
+        "confidence": 78,
+        "rationale": "City's home form has been exceptional with 85% win rate. Arsenal missing key defenders."
+      },
+      "bookmakerOdds": {
+        "home": 1.65,
+        "draw": 3.8,
+        "away": 5.2
+      },
+      "aiOdds": {
+        "home": 1.55,
+        "draw": 4.1,
+        "away": 6.5
+      },
+      "upsetAlert": false
+    },
+    {
+      "id": 2,
+      "homeTeam": "Brighton",
+      "awayTeam": "Liverpool",
+      "league": "Premier League",
+      "date": "2025-07-21T17:30:00Z",
+      "aiPrediction": {
+        "outcome": "Away Win",
+        "confidence": 52,
+        "rationale": "Close match expected. Liverpool's away record slightly favors them despite Brighton's home advantage."
+      },
+      "bookmakerOdds": {
+        "home": 4.5,
+        "draw": 3.6,
+        "away": 1.8
+      },
+      "aiOdds": {
+        "home": 3.2,
+        "draw": 3.1,
+        "away": 2.4
+      },
+      "upsetAlert": true
+    },
+    {
+      "id": 3,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Barcelona",
+      "league": "La Liga",
+      "date": "2025-07-22T20:00:00Z",
+      "aiPrediction": {
+        "outcome": "Draw",
+        "confidence": 65,
+        "rationale": "El Clasico historically produces close matches. Both teams in excellent form."
+      },
+      "bookmakerOdds": {
+        "home": 2.1,
+        "draw": 3.4,
+        "away": 3.2
+      },
+      "aiOdds": {
+        "home": 2.8,
+        "draw": 2.9,
+        "away": 2.85
+      },
+      "upsetAlert": false
+    }
+  ],
+  "userStats": {
+    "roi": 15.8,
+    "winRate": 68.5,
+    "activeStreak": 7,
+    "totalBets": 145,
+    "profit": 2850.5
+  },
+  "wallet": {
+    "balance": 5420.75,
+    "currency": "USD",
+    "recentTransactions": [
+      {
+        "id": 1,
+        "type": "win",
+        "match": "Chelsea vs Tottenham",
+        "stake": 100,
+        "odds": 2.2,
+        "result": "Won",
+        "profit": 120,
+        "date": "2025-07-20T16:00:00Z"
+      },
+      {
+        "id": 2,
+        "type": "loss",
+        "match": "PSG vs Lyon",
+        "stake": 50,
+        "odds": 1.85,
+        "result": "Lost",
+        "profit": -50,
+        "date": "2025-07-19T21:00:00Z"
+      }
+    ]
+  },
+  "leaderboard": [
+    {
+      "rank": 1,
+      "username": "PredictorPro",
+      "roi": 28.5,
+      "winRate": 72.1,
+      "totalBets": 89,
+      "avatar": "/avatars/user1.jpg"
+    },
+    {
+      "rank": 2,
+      "username": "AIFootballGuru",
+      "roi": 24.3,
+      "winRate": 69.8,
+      "totalBets": 156,
+      "avatar": "/avatars/user2.jpg"
+    },
+    {
+      "rank": 3,
+      "username": "BettingWizard",
+      "roi": 21.7,
+      "winRate": 67.4,
+      "totalBets": 203,
+      "avatar": "/avatars/user3.jpg"
+    }
+  ]
+}
